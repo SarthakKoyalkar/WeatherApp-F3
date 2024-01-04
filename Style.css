@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* height: 100%;
+    width: 100%; */
+    background-image: linear-gradient(135deg,#2D3259, #231C40);
+}
+
+.header{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+header{
+    height: 15%;
+    width: 100%;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: space-around;
+    position: sticky;
+    top: 20px;
+    z-index: 5;
+}
+#inputCity{
+    padding: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg,#2D3259, #231C40);
+    padding-left: 20px;
+    padding-right: 60px;
+    color: #FFFFFF;
+}
+#button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4A397F;
+    border: 3px 3px black;
+    color: whitesmoke;
+    margin-left: 15px;
+}
+::placeholder{
+    color: #D3D3D3;
+}
+#button:hover{
+    background-color: #231C40;
+    border-radius: 5px;
+    transform: scale(1.05);
+    transition: .1s;
+}
+#weatherReport{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.cityReport{
+    width: 270px;
+    height: 150px;
+    background-image: linear-gradient(135deg,#5936B3, #372a84);
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+    position: relative;
+    border-radius: 30px;
+}
+.cityReport>h1{
+    color: #FFFFFF;
+    padding-left: 20px;
+
+}
+.cityCon{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: -5vh;
+}
+.humWin{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: -2vh;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+#ImageDiv{
+    size:50px;
+    display: flex; 
+    position: absolute;   
+    width: 102.4px;
+    height: 102.4px;
+    margin-left: 120px;
+    margin-top: -100px;
+}   
+#Image{
+    width: fit-content;
+
+}
